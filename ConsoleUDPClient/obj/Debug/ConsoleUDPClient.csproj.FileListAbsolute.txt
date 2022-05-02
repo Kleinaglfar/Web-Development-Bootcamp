@@ -1,0 +1,9 @@
+D:\CSE483\VCStudio\WindowsProgramming\ConsoleUDPClient\bin\Debug\ConsoleUDPClient.exe.config
+D:\CSE483\VCStudio\WindowsProgramming\ConsoleUDPClient\bin\Debug\ConsoleUDPClient.exe
+D:\CSE483\VCStudio\WindowsProgramming\ConsoleUDPClient\bin\Debug\ConsoleUDPClient.pdb
+D:\CSE483\VCStudio\WindowsProgramming\ConsoleUDPClient\obj\Debug\ConsoleUDPClient.csprojResolveAssemblyReference.cache
+D:\CSE483\VCStudio\WindowsProgramming\ConsoleUDPClient\obj\Debug\ConsoleUDPClient.exe
+D:\CSE483\VCStudio\WindowsProgramming\ConsoleUDPClient\obj\Debug\ConsoleUDPClient.pdb
+D:\CSE483\VCStudio\WindowsProgramming\WPF Samples\ConsoleUDPClient\bin\Debug\ConsoleUDPClient.exe.config
+D:\CSE483\VCStudio\WindowsProgramming\WPF Samples\ConsoleUDPClient\obj\Debug\ConsoleUDPClient.exe
+D:\CSE483\VCStudio\WindowsProgramming\WPF Samples\ConsoleUDPClient\obj\Debug\ConsoleUDPClient.pdb

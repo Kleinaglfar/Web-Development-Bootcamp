@@ -1,0 +1,25 @@
+h1{
+    color:bisque;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: underline overline;
+}
+h2{
+    color: aquamarine;
+}
+button{
+    color: blueviolet;
+    background-color: blanchedalmond;
+}
+
+p{
+    color:brown
+}
+
+tbody{
+    background-color: cadetblue;
+}
+section{
+    background-color: darkgoldenrod;
+}
+

@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+    background-color: #d5def5;
+}
+nav a{
+    /*border: 2px solid black;*/
+    border-radius: 10%;
+    color: white;
+    text-decoration: none;
+    background-color: #8594e4;
+    display: inline-block;
+    margin-top: 10px;
+}
+nav a:hover{
+    background-color: #8593e4a2;
+}
+#title{
+    color: white;
+}
+nav{
+    background-color: #430f58;
+    height: 45px;
+}
+
+#Games{
+    width: 40px;
+    height: 50px;
+    border:3px solid black;
+    margin: 10px 20px;
+    background-color: #8594e4;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.first-color { 
+	background: #d5def5; 
+}
+	
+.second-color { 
+	background: #8594e4; 
+}
+
+.third-color { 
+	background: #6643b5; 
+}
+
+.fourth-color { 
+	background: #430f58; 
+}

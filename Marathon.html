@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sytle.css">
+</head>
+
+<body>
+    <thead>
+        <h1>Race Registration!</h1>
+    </thead>
+    <tbody>
+        <form action="/marathon">
+            <section>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="FName">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="LName">
+            </section>
+            <section>
+                <p>
+                    Select a Race:
+                </p>
+                <p>
+                    <input type="radio" name="race" id="fun" value="1">
+                    <label for="fun">Fun Run 5k</label><br>
+                    <input type="radio" name="race" id="half" value="2">
+                    <label for="half">Half Marathon</label><br>
+                    <input type="radio" name="race" id="full" value="3">
+                    <label for="full">Fun Run 5k</label><br>
+                </p>
+            </section>
+            <section>
+                <label for="em">Email</label>
+                <input type="email" id="em" name="Email">
+                <label for="pass">Password</label>
+                <input type="password" id="pass" name="Passowrd">
+            </section>
+            <section>
+                <label for="age">Select Age Group</label>
+                <select name="agegroup" id="age">
+                    <option value="u18">under 18</option>
+                    <option value="up18">upper 18</option>
+                </select>
+            </section>
+            <button>Register!</button>
+        </form>
+    </tbody>
+</body>
+
+</html>

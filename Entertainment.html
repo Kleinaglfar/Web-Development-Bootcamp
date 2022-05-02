@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1> Entertainments </h1>
+    <hr>
+    <h2>V1</h2>
+    <section>
+        <table>
+            <thead>
+                <tr>
+                    <th>Index</th>
+                    <th>Game</th>
+                    <th>Year</th>
+                    <th>Rating</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> 1 </td>
+                    <td> Elden Ring </td>
+                    <td> 2022 </td>
+                    <td> 10/10 </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Legend of Zelda: Breath of the wild</td>
+                    <td>2018</td>
+                    <td>10/10</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <h2>V2</h2>
+    <section>
+        <table>
+            <thead>
+                <tr>
+                    <th rowspan="2">Index</th>
+                    <th rowspan="2">Game</th>
+                    <th colspan="2">Year</th>
+                    <th rowspan="2">Rating</th>
+                </tr>
+                <tr>
+                    <th>Release</th>
+                    <th>Review</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> 1 </td>
+                    <td> Elden Ring </td>
+                    <td> 2022 </td>
+                    <td>2022</td>
+                    <td> 10/10 </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Legend of Zelda: Breath of the wild</td>
+                    <td>2018</td>
+                    <td>2022</td>
+                    <td>10/10</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section>
+        <form action="/game">
+            <p>
+                <label for="game">Enter your game name</label>
+                <input type="text" placeholder="game" name="game">
+            </p>
+            <p>
+                <label for="review">Review your game</label>
+                <input type="text" placeholder="Your Review!">
+            </p>
+            <input type="checkbox" id="reviewlike" name="reviewlike" checked>
+            <input type="radio" name="Review" id="g" value="1">
+            <label for="g">Good!</label>
+            <input type="radio" name="Review" id="m" value="2">
+            <label for="m">hmmm...</label>
+            <input type="radio" name="Review" id="b" value="3">
+            <label for="b">So bad:(</label>
+
+            <p>
+                <label for="bestgame">Choose your best game</label>
+                <select name="Games" id="bestgame">
+                    <option value="Elden Ring">Elden Ring</option>
+                    <option value="Zelda">Zelda</option>
+                </select>
+            </p>
+            <p>
+                <label for="volume">Volume value</label>
+                <input type="range" id="volume" name="volume" min="0" max="10">
+            </p>
+            <p>
+                <label for="comment">Leave your comment:</label><br>
+                <textarea name="Comment" id="comment" cols="30" rows="10" placeholder="Comment"></textarea>
+            </p>
+            <button type="">Submit</button>
+        </form>
+    </section>
+    <section>
+        <form action="/dummy">
+
+            <input type="text" minlength="4" maxlength="10" required>
+            <p>
+                <input type="email">
+            </p>
+            <button>Submit</button>
+        </form>
+    </section>
+
+    <form action="https://www.google.com/search?">
+        <input type="text" name="q">
+        <button>Search on google</button>
+    </form>
+
+    <footer>
+        <label for="reviewlike"> Do you like this review?</label>
+        <input type="checkbox" id="reviewlike" name="reviewlike" checked>
+    </footer>
+</body>
+
+</html>

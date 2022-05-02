@@ -1,0 +1,41 @@
+body{
+    margin:0px;
+}
+div{
+    width: 200px;
+    background-color: bisque;
+    border-width: 2px;
+    border-style:dashed;
+    border-color: cadetblue;
+}
+
+#one{
+    border-width: 3px;
+    border-style:dotted;
+    border-color: rgb(238, 160, 43);;
+    box-sizing: border-box;
+}
+
+#two{
+    border-width: 2px;
+    border-style:dashed;
+    border-color: rgb(238, 160, 43);;
+    box-sizing: border-box;
+}
+
+#three{
+    border: 5px solid rgb(238, 160, 43);
+    box-sizing: border-box;
+    border-radius: 5%;
+    margin-top: 10px;
+}
+
+#register{
+    padding: 5px 10px 5px 10px;
+}
+span{
+    background-color: brown;
+    border: 2px solid black;
+    display: inline-block;
+    width: 50px;
+}

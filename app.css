@@ -1,0 +1,84 @@
+#signup{
+    color:blue;
+    background-color: brown;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.tags{
+    color:darkorchid;
+}
+.post a{
+    background-color: brown;
+}
+
+input+button{
+    background-color: darkblue;
+}
+
+h2+button{
+    font-size: 20px;
+}
+input[type="password"]{
+    background-color: darkblue;
+}
+button:hover{
+    background-color: beige;
+}
+#signup:hover{
+    background-color: beige;
+}
+a:hover{
+    text-decoration: underline;
+}
+button:active{
+    background-color: darkgreen;
+}
+.post:nth-of-type(2n){
+    background-color: #97a6b8;
+}
+
+h1::first-letter{
+    font-size: 50px;
+}
+::selection{
+    background-color: rgb(62, 151, 21);
+}
+
+ul{
+    color: brown;
+}
+ul li{
+    color:inherit;
+}
+
+#percentage{
+    background-color: aqua;
+    height: 900px;
+    width: 900px;
+}
+#smaller{
+    height:50%;
+    width: 50%;
+    border: 1px solid black;
+    line-height: 150%;
+}
+article{
+    font-size: 30px;
+}
+article h2{
+    font-size: 2em;
+}
+article p{
+    font-size: 0.5em;
+}
+
+#rems {
+    font-size:1rem;
+}
+html{
+    font-size: 10px;
+}
